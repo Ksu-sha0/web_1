@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color:rgb(188, 132, 202);
+}
+
+.header{
+    /*background:pink; */
+    color: DarkSlateBlue;
+    background: url(../images/18.jpg); 
+    background-size: contain;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.main-menu {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(75, 10, 69);
+    margin-right: 10px;
+}
+
+.main-menu a:hover{
+    transition: color 0.5s;
+    color: rgb(231, 19, 100);
+}
+
+.name {
+    text-transform: uppercase;
+}
+main p {
+    text-align: justify;
+}
+
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+    background-image: url(../images/20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img {
+    height: 100%;
+    font-weight: 200;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(109, 108, 202);
+    font-weight: bold;
+    border: 2px solid rgb(109, 108, 202);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transition: color 0.5s, border-color 0.5s;
+    color: rgb(231, 19, 100);
+    border-color: rgb(19, 182, 231);
+}
+
+.contact-me-btn {
+    color: white;
+    border-color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.w-50 {
+    max-width: 50%;
+}
+
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
+.mem{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.mem img {
+    height: 100%;
+}
+
+

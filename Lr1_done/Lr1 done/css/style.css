@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+body{
+    margin: 0;
+    background-color:rgb(188, 132, 202);
+    font-family: 'Pushster', cursive;
+}
+
+.header{
+    /*background:pink; */
+    color: DarkSlateBlue;
+    background: url(../images/18.jpg); 
+    background-size: contain;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.main-menu {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    text-align-last: end;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(75, 10, 69);
+    margin-right: 200px;
+}
+
+.main-menu a:hover{
+    transition: color 0.5s;
+    color: rgb(231, 19, 100);
+}
+
+.name {
+    text-transform: uppercase;
+}
+main p {
+    text-align: center;
+}
+
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+    background-image: url(../images/20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img {
+    height: 100%;
+    font-weight: 200;
+}
+
+.f_img {
+    width: 700px;
+    padding: 10px 10px 30px 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transition: color 0.5s, border-color 0.5s;
+    color: rgb(231, 19, 100);
+    border-color: rgb(19, 182, 231);
+}
+
+.contact-me-btn {
+    color: #9c27b0;
+    border-color: #48154f;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    background-color: #6d3d79d9;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 27%;
+    background-color: #ffffff9c;
+    width: max-content;
+    color: #60366b;
+}
+
+.w-50 {
+    max-width: 50%;
+}
+
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+.mem{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.mem img {
+    height: 100%;
+}
+
+

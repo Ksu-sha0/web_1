@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: rgb(81, 126, 252);;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(79, 54, 107);
+    display: flex;
+    align-items: center;
+}
+img {
+    margin: 25px 50px;
+    width: 120px;
+}
+
+header p {
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+.container {
+    margin: 20px;
+}
+
+.btn__wrapper {
+    display: block;
+    margin-top: 20px;
+}
+.btn {
+    color: rgb(79, 54, 107);
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 11px 45px;
+    font-weight: bold;
+    border: 0;
+    background: #3FC1C9;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #46d7df;
+}

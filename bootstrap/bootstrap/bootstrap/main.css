@@ -1,0 +1,28 @@
+.banner {
+    background-color: #eaecf0;
+}
+
+.call-to-action {
+    background-color: #011627;
+    color: #fff;
+}
+
+.techonologies .image-fluid {
+    height: 300px;
+}
+
+.dark {
+    background-color: #011627;
+    color: #83F3E9;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+body{
+    font-family:"Montserrat", sens-serif;
+}
+.navbar {
+    background-color: #eaecf0;
+    border: 1px solid black;
+}
